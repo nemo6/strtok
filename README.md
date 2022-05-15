@@ -1,2 +1,2 @@
-# ft_split_test
+# strtok
 test
