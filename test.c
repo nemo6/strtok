@@ -111,6 +111,17 @@ int main (int argc,char **argv){
 			}
 
 		}
+		
+		/*for(int i=1;i<=n+1;i++){
+
+			if( i < (n+1) ){
+				printf("[%d %d]",first_range,ptr[i]-1);
+				first_range = ptr[i]+1;
+			}else{
+				printf("[%d %d]\n",first_range,strlen(str)-1);
+			}
+
+		}*/
 
 	}else{
 
