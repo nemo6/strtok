@@ -64,8 +64,27 @@ char *range(char *pszChar, int start,int end){
 }
 
 int main (int argc,char **argv){
+	
+	// char *str = argv[1];
 
+	/*
+	char *str = malloc( sizeof(char) );
+	char *d     = malloc( sizeof(char) );
+	char temp;
+
+	printf("Enter a string: ");
+   	scanf("%[^\n]",str);
+
+    	scanf("%c",&temp); // // temp statement to clear buffer
+
+	printf("Enter a sperator: ");
+    	scanf("%[^\n]",d); 
+	*/
+
+	//
+	
 	char *str = "ABCD EFG HIJ A BC";
+	char *d = malloc( sizeof(char) );
 
 	int *ptr = find_space(str," ");
 
