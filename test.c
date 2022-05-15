@@ -69,7 +69,7 @@ int main (int argc,char **argv){
 
 	/*
 	char *str = malloc( sizeof(char) );
-	char *d     = malloc( sizeof(char) );
+	char *d   = malloc( sizeof(char) );
 	char temp;
 
 	printf("Enter a string: ");
