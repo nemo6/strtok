@@ -68,8 +68,8 @@ int main (int argc,char **argv){
 	// char *str = argv[1];
 
 	/*
-	char *str = malloc( sizeof(char) );
-	char *d   = malloc( sizeof(char) );
+	char *str = malloc( sizeof(char) );  // limit 15
+	char *d   = malloc( sizeof(char) );  // limit 15
 	char temp;
 
 	printf("Enter a string: ");
@@ -80,7 +80,28 @@ int main (int argc,char **argv){
 	printf("Enter a sperator: ");
     	scanf("%[^\n]",d); 
 	*/
+	
+	/*
+	int max;
+	int limit = 15;
+	int size = strlen(str);
 
+	if( size < limit ){
+	max = size;
+	}else{
+	max = limit;
+	}
+
+	if( str[max] == 0 && d[1] == 0 ){
+	printf("OK\n");
+	printf("[max] : %d\n",str[max]);
+	}else{
+	printf("ERR : %d > 15\n",size);
+	printf("[max] : %d\n",str[max]);
+	return 0;
+	}
+	*/
+		
 	//
 	
 	char *str = "ABCD EFG HIJ A BC";
